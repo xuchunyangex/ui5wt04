@@ -1,0 +1,15 @@
+<mvc:View controllerName="ui5wt04.controller.View1" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true" xmlns="sap.m">
+	<!--We create a new view folder in our app and a new file for our XML view inside the app folder. 
+	The root node of the XML structure is the view. 
+	Here, we reference the default namespace sap.m where the majority of our UI assets are located. 
+	We define an additional sap.ui.core.mvc namespace with alias mvc, 
+	where the SAPUI5 views and all other Model-View-Controller (MVC) assets are located.-->
+	
+	<Text id = "text001" text = "Chunyang" />
+	<!--In SAPUI5, each control has its own ID. In the XML view above we did not specify an ID attribute, a
+	nd therefore the SAPUI5 runtime generates an own ID and adds it to the control. 
+	However, it is a good practice to set the IDs of controls explicitly, so that controls can be identified easily.-->
+	
+	
+</mvc:View>
