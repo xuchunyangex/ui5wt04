@@ -21,7 +21,10 @@
 
 		<script>
 			sap.ui.getCore().attachInit(function() {
-				sap.ui.xmlview({
+				sap.ui.core.mvc.XMLView({
+					// sap.ui.core.mvc.XMLView has alias sap.ui.xmlview, either one is ok
+					// try below as well
+				// sap.ui.xmlview({
 				viewName : "ui5wt04.view.View1",	
 				}).placeAt("content");
 			});
